@@ -3,7 +3,6 @@ package _01_random._6_lottery_numbers;
 import java.util.Random;
 
 import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
 
 public class RandomLotteryNumbers {
 	public static void main(String[] args) {
