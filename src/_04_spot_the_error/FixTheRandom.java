@@ -7,13 +7,13 @@ public class FixTheRandom {
 	// This program is supposed to get a random number between 5 and 10 and print a different message for each number.
 	// BUT it's not working. If you don't believe me, try running it.
 	// Change ONE line of code to fix this program.
-	
+
 	public static void main(String[] args) {
-		
+
 		Random random = new Random();
-		
-		int numnber = random.nextInt(5);
-		
+
+		int numnber = random.nextInt(10-5+1) + 5;  //i changed this line from "int numnber = random.nextInt(5);" to what it is now
+
 		if (numnber == 5) {
 			System.out.println("FIVE");
 		} else if (numnber == 6) {
@@ -28,6 +28,6 @@ public class FixTheRandom {
 			System.out.println("TEN");
 		}
 	}
-	
-	
+
+
 }
